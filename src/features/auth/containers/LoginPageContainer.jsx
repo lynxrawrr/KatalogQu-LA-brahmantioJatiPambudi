@@ -26,7 +26,7 @@ export default function LoginPageContainer({ onLogin }) {
             Login
           </h1>
           <p className="mt-2 text-sm text-slate-500 dark:text-slate-400">
-            Masuk untuk mengelola produk dan melihat daftar user.
+            Masuk untuk mengelola produk dari KatalogQu.
           </p>
 
           <div className="mt-6">
