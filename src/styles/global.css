@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+/* 👇 TAMBAHKAN BARIS INI 👇 */
+/* Ini memaksa varian 'dark:' untuk aktif jika ada class .dark di elemen HTML */
+@variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+  --color-primary: #0f172a; 
+  --color-primary-hover: #1e293b;
+  
+  --animate-enter: enter 0.2s ease-out;
+  --animate-leave: leave 0.15s ease-in;
+  
+  @keyframes enter {
+    from { opacity: 0; transform: scale(0.95); }
+    to { opacity: 1; transform: scale(1); }
+  }
+  @keyframes leave {
+    from { opacity: 1; transform: scale(1); }
+    to { opacity: 0; transform: scale(0.95); }
+  }
+}
+
+/* Pastikan root class transparan agar tidak nabrak */
+:root {
+  color-scheme: light; /* Default light agar scrollbar browser ikut terang */
+}
+
+/* Jika class .dark aktif, ubah skema warna browser (scrollbar, dll) jadi gelap */
+.dark {
+  color-scheme: dark;
+}
+
+/* ... css lainnya ... */
+
+/* Custom Scrollbar yang tipis
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #cbd5e1;
+  border-radius: 20px;
+} */
