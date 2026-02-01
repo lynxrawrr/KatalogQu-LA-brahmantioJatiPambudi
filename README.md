@@ -28,72 +28,72 @@ Sebuah website dashboard untuk mengelola produk (Create, Read, Update, Delete) m
 
 ## Struktur Project
 ``` txt
-katalog-qu-cth/
-|_ public/
-|_ src/
-|   |_ api/
-|   |   |_ http.js
-|   |   |_ products.api.js
-|   |   |_ auth.api.js
+katalog-qu/
+|__ public/
+|__ src/
+|   |__ api/
+|   |   |__ http.js
+|   |   |__ products.api.js
+|   |   |__ auth.api.js
 |   |
-|   |_ assets/
-|   |   |_ katalogqu.png
+|   |__ assets/
+|   |   |__ katalogqu.png
 |   |
-|   |_ components/
-|   |   |_ Layout.jsx
-|   |   |_ ProtectedRoute.jsx
-|   |   |_ LogoutConfirmDialog.jsx
-|   |   |_ ErrorState.jsx
-|   |   |_ Spinner.jsx
-|   |   |_ toast/
+|   |__ components/
+|   |   |__ Layout.jsx
+|   |   |__ ProtectedRoute.jsx
+|   |   |__ LogoutConfirmDialog.jsx
+|   |   |__ ErrorState.jsx
+|   |   |__ Spinner.jsx
+|   |   |__ toast/
 |   |       |_ Toast.jsx
 |   |       |_ ToastProvider.jsx
 |   |       |_ toast.context.js
 |   |
-|   |_ features/
-|   |   |_ auth/
-|   |   |   |_ components/
-|   |   |   |   |_ LoginForm.jsx
-|   |   |   |_ containers/
-|   |   |       |_ LoginPageContainer.jsx
+|   |__ features/
+|   |   |__ auth/
+|   |   |   |__ components/
+|   |   |   |   |__ LoginForm.jsx
+|   |   |   |__ containers/
+|   |   |       |__ LoginPageContainer.jsx
 |   |   |
-|   |   |_ misc/
-|   |   |   |_ pages/
-|   |   |       |_ NotFoundPage.jsx
+|   |   |__ misc/
+|   |   |   |__ pages/
+|   |   |       |__ NotFoundPage.jsx
 |   |   |
-|   |   |_ products/
-|   |       |_ components/
-|   |       |   |_ ConfirmDialog.jsx
-|   |       |   |_ ProductCard.jsx
-|   |       |   |_ ProductDetailModal.jsx
-|   |       |   |_ ProductFormModal.jsx
-|   |       |   |_ ProductsGrid.jsx
-|   |       |   |_ ProductsHeader.jsx
-|   |       |_ containers/
-|   |           |_ ProductsPageContainer.jsx
+|   |   |__ products/
+|   |       |__ components/
+|   |       |   |__ ConfirmDialog.jsx
+|   |       |   |__ ProductCard.jsx
+|   |       |   |__ ProductDetailModal.jsx
+|   |       |   |__ ProductFormModal.jsx
+|   |       |   |__ ProductsGrid.jsx
+|   |       |   |__ ProductsHeader.jsx
+|   |       |__ containers/
+|   |           |__ ProductsPageContainer.jsx
 |   |
-|   |_ hooks/
-|   |   |_ useAuth.js
-|   |   |_ useDarkMode.js
-|   |   |_ useHideOnScroll.js
+|   |__ hooks/
+|   |   |__ useAuth.js
+|   |   |__ useDarkMode.js
+|   |   |__ useHideOnScroll.js
 |   |
-|   |_ styles/
-|   |   |_ global.css
+|   |__ styles/
+|   |   |__ global.css
 |   |
-|   |_ App.jsx
-|   |_ main.jsx
+|   |__ App.jsx
+|   |__ main.jsx
 |
-|_ index.html
-|_ package.json
-|_ vite.config.js
-|_ README.md
+|__ index.html
+|__ package.json
+|__ vite.config.js
+|__ README.md
 ```
 ---
 
 ## Instalasi & Menjalankan Project
 #### 1) Clone repository
 ```bash
-git clone <URL_REPO_KAMU>
+git clone https://github.com/lynxrawrr/KatalogQu-LA-brahmantioJatiPambudi.git
 cd katalog-qu
 ```
 
