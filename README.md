@@ -1,4 +1,4 @@
-# KatalogQu - Dashboard Inventaris
+# KatalogQu - Milestone Project Lumoshive Academy
 
 Sebuah website dashboard untuk mengelola produk (Create, Read, Update, Delete) menggunakan **FakeStoreAPI** dan **React**.  Website memiliki **Auth (Login/Logout)** dan **proteksi halaman**.
 
@@ -17,7 +17,6 @@ Sebuah website dashboard untuk mengelola produk (Create, Read, Update, Delete) m
 ---
 
 ## Tech Stack
-
 - React + Vite
 - Tailwind CSS
 - Axios
@@ -46,9 +45,9 @@ katalog-qu/
 |   |   |__ ErrorState.jsx
 |   |   |__ Spinner.jsx
 |   |   |__ toast/
-|   |       |_ Toast.jsx
-|   |       |_ ToastProvider.jsx
-|   |       |_ toast.context.js
+|   |       |__ Toast.jsx
+|   |       |__ ToastProvider.jsx
+|   |       |__ toast.context.js
 |   |
 |   |__ features/
 |   |   |__ auth/
