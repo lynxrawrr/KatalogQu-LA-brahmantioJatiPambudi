@@ -10,7 +10,7 @@ export default function Toast({ open, type = "info", title, message, onClose }) 
   if (!open) return null;
 
   return (
-    <div className="fixed bottom-5 right-5 z-50 w-[min(92vw,420px)] animate-in slide-in-from-bottom-5 fade-in duration-300">
+    <div className="fixed bottom-5 right-5 z-50 w-[min(92vw,420px)] animate-in slide-in-from-right-5 fade-in duration-300">
       <div className="rounded-2xl border border-slate-200 bg-white p-4 shadow-xl dark:bg-slate-800 dark:border-slate-700 dark:shadow-black/30">
         <div className="flex items-start gap-3">
           <div className="mt-0.5 text-lg">{iconByType(type)}</div>

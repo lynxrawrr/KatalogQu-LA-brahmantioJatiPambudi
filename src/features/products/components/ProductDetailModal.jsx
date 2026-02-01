@@ -12,7 +12,7 @@ export default function ProductDetailModal({ open, product, onClose }) {
 
   return (
     <div className="fixed inset-0 z-40 grid place-items-center bg-slate-900/40 p-4 backdrop-blur-sm dark:bg-black/60">
-      <div className="w-full max-w-3xl overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-2xl dark:bg-slate-900 dark:border-slate-800">
+      <div className="w-full max-w-3xl overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-2xl dark:bg-slate-900 dark:border-slate-800 animate-in fade-in zoom-in-95 duration-200">
         <div className="flex items-center justify-between border-b border-slate-200 px-5 py-4 dark:border-slate-800">
           <div className="min-w-0">
             <div className="truncate text-base font-semibold text-slate-900 dark:text-white">

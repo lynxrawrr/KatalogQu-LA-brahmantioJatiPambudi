@@ -14,8 +14,8 @@ export default function ConfirmDialog({
   if (!open) return null;
 
   return (
-    <div className="fixed inset-0 z-50 grid place-items-center bg-slate-900/40 p-4 backdrop-blur-sm dark:bg-black/60">
-      <div className="w-full max-w-md overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-2xl dark:bg-slate-900 dark:border-slate-800">
+    <div className="fixed inset-0 z-50 grid place-items-center bg-slate-900/40 p-4 backdrop-blur-sm dark:bg-black/60 animate-in fade-in duration-500">
+      <div className="w-full max-w-md overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-2xl dark:bg-slate-900 dark:border-slate-800 animate-in fade-in zoom-in-95 slide-in-from-top-8 duration-500 ease-out">
         <div className="flex items-start gap-3 border-b border-slate-200 p-5 dark:border-slate-800">
           <div
             className={`mt-0.5 grid h-10 w-10 place-items-center rounded-2xl ${
