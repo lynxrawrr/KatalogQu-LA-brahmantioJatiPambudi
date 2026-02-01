@@ -150,5 +150,6 @@ Base URL: `https://fakestoreapi.com`
 - https://medium.com/@vitorbritto/react-design-patterns-the-container-presentational-pattern-775b91aa0c49
 - https://fakestoreapi.com/docs
 - https://tailwindcss.com/docs/installation/using-vite
+- https://www.npmjs.com/package/tailwind-animate
 - https://medium.com/@okonidorenyin73/demo-store-api-documentation-a-sample-rest-api-for-e-commerce-applications-4b99d7f55f2b
 - https://stackoverflow.com/questions/70622541/how-can-i-use-previous-location-to-redirect-user-in-react-router-v6
